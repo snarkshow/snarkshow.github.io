@@ -4,9 +4,7 @@ title: laura chuang
 ---
 
 
-	<div class="intro">
-		<h1>laura chuang dot net</h1>
-		<p>web devloper.</p>
-		<p>librarian.</p>
-	</div>
+	#laura chuang dot net
+	###web devloper.
+    ###librarian.
 
