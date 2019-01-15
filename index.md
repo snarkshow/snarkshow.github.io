@@ -4,7 +4,7 @@ title: laura chuang
 ---
 
 
-	#laura chuang dot net
-	###web devloper.
-    ###librarian.
+# laura chuang dot net
+### web devloper.
+### librarian.
 
