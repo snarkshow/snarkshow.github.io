@@ -1,6 +1,12 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: laura chuang
 ---
+
+
+	<div class="intro">
+		<h1>laura chuang dot net</h1>
+		<p>web devloper.</p>
+		<p>librarian.</p>
+	</div>
+
