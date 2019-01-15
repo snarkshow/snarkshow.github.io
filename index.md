@@ -5,6 +5,6 @@ title: laura chuang
 
 
 # laura chuang dot net
-### web devloper.
+### web developer.
 ### librarian.
 
