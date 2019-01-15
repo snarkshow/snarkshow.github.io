@@ -7,8 +7,12 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 /* GENERAL CSS */
 
 .wrapper{
-    margin: 60px auto;
-    width: 70%;
+    margin: 0;
+    width: 1280 px;
+}
+
+header{
+    position: relative;
 }
 
 *{
@@ -17,42 +21,94 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 /* NAVBAR CSS */
 
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+nav{
+    background-color: rgb(69, 0, 0);
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
-nav ul li, footer ul li {
+
+nav ul{
+    float: right;
+}
+
+.navlinks li{
+    float: left;
+    list-style-type: none;
+    margin: 15px 25px;
+    padding: 0 30px;
+}
+
+.navlinks li a{
+    color: white;
+    font-family:'Libre Baskerville', 'serif';
+    font-size: 2rem;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: lowercase;
+    text-shadow: 0.5px 0.5px 0.5px whitesmoke;
+}
+
+/* BREAK */
+
+/* nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-a {
-    text-decoration: none;
-    color: #999;
-}
+
 a:hover {
     text-decoration: underline;
-}
+} */
 
 /* WRITTEN CONTENT CSS */
 
+.container{
+    margin: 150px;
+}
+
 h1 {
-    font-size: 3em;
+    font-size: 3rem;
     font-family:'Libre Baskerville', 'serif';
     /* font-family:'Karla', 'sans-serif'; */
 }
 h3, p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1.5rem;
+    line-height: 1.4rem;
     color: rgb(39, 38, 38);
-    font-family:'Libre Baskerville', 'serif';
     font-family:'Karla', 'sans-serif';
 }
+
+/* FOOTER CSS */
+
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    background-color: rgb(39, 38, 38);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
 }
+
+footer ul{
+    list-style-type: none;
+}
+
+footer li{
+    display: inline-block;
+    margin: 15px 25px;
+    padding: 0 30px;
+}
+
+footer li a{
+    color: white;
+    font-size: 2rem;
+    font-weight: lighter;
+    text-decoration: none;
+    text-shadow: 0.5px 0.5px 0.5px whitesmoke;
+} 
+
+/* BLOG POSTS CSS */
 
 ul.posts { 
     margin: 20px auto 40px; 
