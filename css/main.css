@@ -23,6 +23,7 @@ header{
 
 nav{
     background-color: rgb(69, 0, 0);
+    border-bottom: 5px whitesmoke groove;
     padding: 0;
     position: fixed;
     top: 0;
@@ -50,7 +51,7 @@ nav ul{
     text-shadow: 0.5px 0.5px 0.5px whitesmoke;
 }
 
-/* WRITTEN CONTENT CSS */
+/* HOME CONTENT CSS */
 
 .container{
     margin: 150px;
@@ -61,7 +62,7 @@ h1 {
     font-family:'Libre Baskerville', 'serif';
     /* font-family:'Karla', 'sans-serif'; */
 }
-h3 {
+h2 {
     font-size: 2rem;
     line-height: 1.4rem;
     color: rgb(39, 38, 38);
@@ -72,6 +73,7 @@ h3 {
 
 footer {
     background-color: rgb(39, 38, 38);
+    border-top: 3px whitesmoke groove;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -96,6 +98,15 @@ footer li a{
     text-decoration: none;
     /* text-shadow: 0.5px 0.5px 0.5px whitesmoke; */
 } 
+
+/* OTHER PAGES CSS */
+
+p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: rgb(39, 38, 38);
+    font-family:'Karla', 'sans-serif';
+}
 
 /* BLOG POSTS CSS */
 
